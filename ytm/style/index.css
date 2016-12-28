@@ -101,7 +101,7 @@
 .info_center{
     width: 700px;
     position: relative;
-    left: -200px;
+    left: -300px;
 }
 .contentFl{
     position: relative;
@@ -113,6 +113,11 @@
     color: #FF5757;
     font-size: 35px;
     margin-top: -18px;
+}
+.contentFl .imgT{
+    width: 316px;
+    height: 192px;
+    text-align:right;
 }
 .contentFl .site_img{
     height: 444px;
@@ -143,9 +148,9 @@
 }
 
 .contentFr{
-    padding-top: 16%;
     position: relative;
-    left: 4%;
+    top: -50px;
+    left: 222px;
 }
 .contentFr .info_take{
     width: 330px;
@@ -190,13 +195,13 @@
     color:#ffffff;
 }
 .panel{
-   float: left;
-    width: 550px;
+  /* float: left;*\
+   /* width: 550px;*/
     padding: 10px 0 0 22px;
 }
 .panel .list li{
     float: left;
-    width: 130px;
+    width: 122px;
     text-align: center;
     margin-bottom: 16px;
     border: 1px solid #eeecec;
@@ -207,7 +212,7 @@
 }
 .panel .list li a{
     color: #484848;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 .panel .list li a:hover{
     color: #67BB4D;
@@ -237,4 +242,12 @@
 }
 .frImg{
 width: 410px;
+}
+
+/*2016.2.28修改*/
+.info-img img{
+    width: 15%;
+    padding: 2px;
+    border: 1px solid red;
+    margin:0 3px;
 }

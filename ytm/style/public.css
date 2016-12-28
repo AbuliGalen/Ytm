@@ -1,7 +1,7 @@
 body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,
 pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
 
-body,button,input,select,textarea{font:14px/1.5 tahoma,arial,\5b8b\4f53;}
+body,button,input,select,textarea{font:14px/1.5 tahoma,arial,\5b8b\4f53;font-family: "汉仪中等线简","黑体",sans-serif;}
 
 h1,h2,h3,h4,h5,h6{font-size:100%;}
 
@@ -71,7 +71,7 @@ header{
 /*页尾*/
 footer{
     width: 100%;
-    color:red;
+    color:#9e9c9c;
     padding: 10px 0;
     margin-top: 10px;
     line-height: 22px;
